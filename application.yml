@@ -1,7 +1,12 @@
 #ConfigServer
-# spring:
-#    application:
-#       name: Config-Default #Dev/Prod/Default
+spring:
+   output:
+      ansi:
+         enabled: ALWAYS
+
+logging:
+   pattern:
+      console: "%clr(%d{yyyy-MM-dd HH:mm:ss}){green} %clr(%-5level){yellow} %clr(%logger{36}){blue} - %msg%n"
 
 eureka:
    instance:
