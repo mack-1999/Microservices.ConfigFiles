@@ -1,2 +1,2 @@
-# Hotel.Project.ConfigFiles
-Config Server files for Hotel Management Project
+# Configuration Files
+Config Server files for Microservices Projects
